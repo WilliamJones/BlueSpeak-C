@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1A76B31F159FC70094B651 /* scratchpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A76B21F159FC70094B651 /* scratchpad.swift */; };
 		3D2D89441F1455FB0084F7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D89431F1455FB0084F7FD /* AppDelegate.swift */; };
 		3D2D89461F1455FB0084F7FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D89451F1455FB0084F7FD /* ViewController.swift */; };
 		3D2D89491F1455FB0084F7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D89471F1455FB0084F7FD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1A76B21F159FC70094B651 /* scratchpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scratchpad.swift; sourceTree = "<group>"; };
 		3D2D89401F1455FB0084F7FD /* BlueSpeak-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueSpeak-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D89431F1455FB0084F7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D2D89451F1455FB0084F7FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +56,13 @@
 		3D2D89421F1455FB0084F7FD /* BlueSpeak-C */ = {
 			isa = PBXGroup;
 			children = (
-				3D2D89431F1455FB0084F7FD /* AppDelegate.swift */,
 				3D2D89451F1455FB0084F7FD /* ViewController.swift */,
+				3D1A76B21F159FC70094B651 /* scratchpad.swift */,
 				3D2D89471F1455FB0084F7FD /* Main.storyboard */,
 				3D2D894A1F1455FB0084F7FD /* Assets.xcassets */,
 				3D2D894C1F1455FB0084F7FD /* LaunchScreen.storyboard */,
 				3D2D894F1F1455FB0084F7FD /* Info.plist */,
+				3D2D89431F1455FB0084F7FD /* AppDelegate.swift */,
 			);
 			path = "BlueSpeak-C";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D2D89461F1455FB0084F7FD /* ViewController.swift in Sources */,
+				3D1A76B31F159FC70094B651 /* scratchpad.swift in Sources */,
 				3D2D89441F1455FB0084F7FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +316,7 @@
 				3D2D89541F1455FB0084F7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
